@@ -1,0 +1,45 @@
+stream.1 <- sample( c(-1,+1) , 100, replace=TRUE )
+stream.2 <- sample( c(-1,+1) , 100, replace=TRUE )
+stream.3 <- sample( c(-1,+1) , 100, replace=TRUE )
+stream.1
+cumsum( stream.1)
+cumsum( stream.2)
+cumsum( stream.3)
+??shift
+??rotate
+sum( stream.3)
+??unshift
+??pop
+??stack
+??unshift
+??shift
+??rotate
+?shiftdim
+??shiftdim
+rotate <- function(x) { x[2:-2] = x[1:-1] }
+rotate(stream.1
+)
+stream.1[-2]
+stream.1[-1]
+stream.1[3:-3]
+stream.1[3:-2]
+stream.1[-1]
+stream.1[-10
+]
+stream.1
+l <- 1:9
+l
+l[-1]
+l[1:-1]
+rotate <- function(x) tmp = x[-1]; tmp = c(tmp, x[length(x)]); x = tmp
+rotate <- function(x) tmp = x[-1]; t = c(tmp, x[length(x)]); x = tmp
+rotate <- function(x) {tmp = x[-1]; t = c(tmp, x[length(x)]); x = tmp}
+rotate(stream.1)
+stream.1
+stream.1 <- sample( c(-1,+1) , 100, replace=TRUE )
+rotate <- function(x) { tmp = x[-1]; c(tmp, x[length(x)]) }
+rotate(stream.1)
+stream.1
+stream.2
+stream.3
+savehistory("1.polya.Rhist")
